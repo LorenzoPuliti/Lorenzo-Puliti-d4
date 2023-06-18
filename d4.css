@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+
+#bar1{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 0.8em;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0px 3px 5px whitesmoke;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#img1{
+    width: 150px;
+    padding-right: 50%;
+}
+
+.topbar-icon{
+    font-size: 1.5em;
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+#bar1-1{
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#bar1-1:hover{
+    background-color: whitesmoke;
+}
+
+#bar1-2{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bar1-2-1{
+    padding: 7px;
+    color: white;
+}
+
+#content{
+    display: flex;
+}
+
+#main{
+    display: flex;
+    height: 100vh;
+    width: 55%;
+    border-right: 1px solid whitesmoke;
+    box-shadow: 2px 0px 2px whitesmoke;
+    padding-left: 80px;
+    padding-right: 40px;
+    flex-direction: column;
+}
+
+#sidebar{
+    display: flex;
+    height: 100%;
+    width: 45%;
+
+}
+
+#bar2{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: end;
+    font-size: 0.85em;
+    padding-top: 40px;
+    font-family:'Roboto', sans-serif;
+}
+
+#bar2-1{
+    color: lightgrey;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+#bar2-2{
+    text-align: center;
+    width: 200px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+#bar2-3{
+    width: 400px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+}
+
+#box1{
+    display: flex;
+    flex-direction: row;
+}
+
+#vertical1{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    padding-top: 30px;
+    font-family:'Roboto', sans-serif;
+
+}
+
+#mini-logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+#bar3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#bar4{
+    font-size: 1.3em;
+    padding-top: 10px;
+}
+
+#bar5{
+    font-size: 0.9em;
+    color: gray;
+    padding-top: 10px;
+}
+
+#bar6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+    padding-top: 10px;
+    align-items: center;
+    color: gray;
+}
+
+.react{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bar6-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#bar6-2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#imgbox1{
+    width: 200px;
+    padding-top: 70px;
+    cursor: pointer;
+   
+}
+
+#sidebar{
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
+}
+
+#sidebar1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#sidebar1-1{
+    display: flex;
+    height: 40px;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+#logo1{
+    width: 40px;
+}
+
+#logo2{
+    width: 25px;
+}
+
+#sidebar2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+}
+
+#sidebar3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#sidebar3-1{
+    display: flex;
+    width: 200px;
+    border: 2px solid lightgray;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#sidebar3-1:hover{
+    background-color:whitesmoke ;
+}
+
+#sidebar4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#link{
+    color: gray;
+}
+
+#sidebar5{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+
+}
+
+#sidebar6{
+    margin-left: 10%;
+    margin-right: 25%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+#sidebar7{
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+#sidebar8{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#sidebar8-1{
+    display: flex;
+}
+
+#sidebar8-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+#sidebar8-3{
+    padding-top: 5px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+#lessig:hover{
+    cursor: pointer;
+}
+
+#sidebar8-4{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+#sidebar8-4:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#logo3{
+    width: 50px;
+}
+
